@@ -12,7 +12,7 @@ function total(...marks) {
     return sum;
 }
 // 3. Default Parameters
-function greet(name = "Student") {
+function greeting(name = "Student") {
     console.log("Hello", name);
 }
 // 4. Optional Parameters
@@ -27,7 +27,7 @@ function display(name, age) {
 // Test
 console.log("Sum =", add(10, 20));
 console.log("Total Marks =", total(80, 90, 85));
-greet();
-greet("Pravallika");
+greeting();
+greeting("Pravallika");
 display("Pravallika");
 display("Siddhu", 20);

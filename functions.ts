@@ -13,7 +13,7 @@ function total(...marks: number[]): number {
 }
 
 // 3. Default Parameters
-function greet(name: string = "Student"): void {
+function greeting(name: string = "Student"): void {
     console.log("Hello",name);
 }
 
@@ -31,8 +31,8 @@ console.log("Sum =",add(10, 20));
 
 console.log("Total Marks =",total(80, 90, 85));
 
-greet();
-greet("Pravallika");
+greeting();
+greeting("Pravallika");
 
 display("Pravallika");
 display("Siddhu", 20);
