@@ -1,9 +1,9 @@
- let Name: string="Pravallika";
+ let MyName: string="Pravallika";
  let age: number=19;
  let cgpa: number=93;
  let section: string="AIDS-B";
  let success: boolean=true;
- console.log("Name: ",Name);
+ console.log("Name: ",MyName);
  console.log("Age: ",age);
  console.log("CGPA: ",cgpa)
  console.log("Section: ",section);
@@ -17,5 +17,4 @@
         console.log("Result: Fail");
     }
 }
-
-details(Name, cgpa, success);
+details(MyName, cgpa, success);

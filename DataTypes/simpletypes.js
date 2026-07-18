@@ -1,10 +1,10 @@
 "use strict";
-let Name = "Pravallika";
+let MyName = "Pravallika";
 let age = 19;
 let cgpa = 93;
 let section = "AIDS-B";
 let success = true;
-console.log("Name: ", Name);
+console.log("Name: ", MyName);
 console.log("Age: ", age);
 console.log("CGPA: ", cgpa);
 console.log("Section: ", section);
@@ -19,4 +19,4 @@ function details(name, score, result) {
         console.log("Result: Fail");
     }
 }
-details(Name, cgpa, success);
+details(MyName, cgpa, success);
