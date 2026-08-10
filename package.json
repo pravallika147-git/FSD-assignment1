@@ -8,5 +8,17 @@
   "main": "exp1.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pravallika147-git/FSD2.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/pravallika147-git/FSD2/issues"
+  },
+  "homepage": "https://github.com/pravallika147-git/FSD2#readme",
+  "dependencies": {
+    "express": "^5.2.1"
   }
 }
